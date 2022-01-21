@@ -1,6 +1,6 @@
 {
   "name": "@meecode/grpc-server-mock",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -96,7 +96,7 @@
     }
   },
   "jest-junit": {
-    "suiteName": "grpc-server-mock",
+    "suiteName": "@meecode/grpc-server-mock",
     "outputDirectory": "./report",
     "outputName": "junit.xml"
   }

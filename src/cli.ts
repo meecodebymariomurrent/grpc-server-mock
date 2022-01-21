@@ -16,5 +16,5 @@ yargs
   .alias('v', 'version')
   .help('h')
   .alias('h', 'help')
-  .scriptName('grpc-server-mock')
+  .scriptName('@meecode/grpc-server-mock')
   .argv;
