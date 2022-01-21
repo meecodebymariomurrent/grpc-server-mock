@@ -11,12 +11,12 @@ npm install -g @meecode/grpc-server-mock
 ## Usage
 
 ```
-Usage: @meecode/grpc-server-mock <command> [options]
+Usage: advanced-grpc-server-mock <command> [options]
 
 Commands:
-  @meecode/grpc-server-mock start:autowire       Autowires grpc server mock using the mock folder
-  @meecode/grpc-server-mock start:config         Creates gRPC server mock using given config
-  @meecode/grpc-server-mock generate:config      Targets autowire folder and generates JSON config from it
+  advanced-grpc-server-mock start:autowire       Autowires grpc server mock using the mock folder
+  advanced-grpc-server-mock start:config         Creates gRPC server mock using given config
+  advanced-grpc-server-mock generate:config      Targets autowire folder and generates JSON config from it
 ```
 
 ### Start from auto-wire folder
@@ -24,7 +24,7 @@ Starts the server from the given autowire config.
 An example can be found in the [examples folder.](./examples/autowire)
 
 ```
-@meecode/grpc-server-mock start:autowire
+advanced-grpc-server-mock start:autowire
 ```
 Options:
 ```
@@ -93,7 +93,7 @@ Service method json format:
 ### Start from config
 Starts the server from the target config.
 ```
-@meecode/grpc-server-mock start:config
+advanced-grpc-server-mock start:config
 ```
 Options:
 ```
@@ -104,7 +104,7 @@ Options:
 ### GenerateConfigCommand
 Generates Config file from target autowire folder.
 ```
-@meecode/grpc-server-mock generate:config
+advanced-grpc-server-mock generate:config
 ```
 Options:
 ```

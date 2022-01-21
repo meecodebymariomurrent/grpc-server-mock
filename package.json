@@ -1,6 +1,6 @@
 {
   "name": "@meecode/grpc-server-mock",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "description": "",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
@@ -16,7 +16,7 @@
     "build": "rimraf dist && tsc --project tsconfig.prod.json"
   },
   "bin": {
-    "@meecode/grpc-server-mock": "./dist/cli.js"
+    "advanced-grpc-server-mock": "./dist/cli.js"
   },
   "repository": {
     "type": "git",
